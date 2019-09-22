@@ -23,9 +23,6 @@ function lockerReset()
 	image:rotate(0)
 end
 function Update(protocol, opcode, buffer)
-	local player = g_game.getLocalPlayer()
-	local creatureData = g_map.getCreatureById(player:getId())
-	g_map.colorizeThing(creatureData, 12)
 	local data = string.split(buffer, "|")
 	if data[1] == "Open" then
 		lockWindow:show()
