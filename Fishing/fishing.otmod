@@ -1,0 +1,11 @@
+Module
+  name: fishing
+  description: fishing system
+  author: vyctor17
+  website: https://github.com/vyctor17
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ fishing ]
+  @onLoad: init()
+  @onUnload: terminate()

@@ -1,0 +1,31 @@
+MainWindow
+  id: FishHud
+  size: 246 122
+  opacity: 1.0
+  focusable: false
+  image-source: FishingHUD.png
+  draggable: false
+  
+  UIImageView
+    id: Fish
+    image-source: Fish.png
+    margin-top: 45
+    anchors.top: parent.top
+    anchors.left: parent.left
+
+  UIImageView
+    id: Target
+    image-source: Target.png
+    margin-top: 42
+    anchors.top: parent.top
+    anchors.left: parent.left
+
+  ProgressBar
+    id: FishBar
+    background-color: green
+    height: 5
+    width: 225
+    margin-top: 79
+    anchors.left: parent.left
+    anchors.top: parent.top
+    phantom: false

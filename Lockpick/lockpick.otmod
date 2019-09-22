@@ -1,0 +1,11 @@
+Module
+  name: lockpick
+  description: lockpick system
+  author: vyctor17
+  website: https://github.com/vyctor17
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ lockpick ]
+  @onLoad: init()
+  @onUnload: terminate()

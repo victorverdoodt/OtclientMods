@@ -1,0 +1,25 @@
+UIWidget
+  id: lockick
+  size: 600 600
+  opacity: 1.0
+  focusable: true
+  draggable: false
+  anchors.centerIn: parent
+
+  UIImageView
+    id: back
+    image-source: lockerback.png
+    anchors.centerIn: parent
+
+  UIImageView
+    id: fechadura
+    image-source: locker.png
+    margin-left: 28
+    anchors.centerIn: parent
+
+  UIImageView
+    id: chave
+    image-source: Key.png
+    anchors.centerIn: parent
+    margin-left: 26
+    margin-top: -10
