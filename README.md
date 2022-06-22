@@ -1,5 +1,5 @@
 # otclient-mods
-vou deixar alguns módulos conceito que eu fiz aqui
+Modulos para otcliente programados na linguagem LUA
 
 #lockpick
 https://www.youtube.com/watch?v=jGZWTIUwV3k
