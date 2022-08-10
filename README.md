@@ -1,12 +1,13 @@
 # otclient-mods
 Modulos para otcliente programados na linguagem LUA
 
-#lockpick
+# lockpick
 https://www.youtube.com/watch?v=jGZWTIUwV3k
 
 Exemplo para uso no server-side
-function onUse(cid, item, frompos, item2, topos)
 
+```
+function onUse(cid, item, frompos, item2, topos)
 	if item2.uid > 0 then
 		if item2.itemid == 1741 then
 			local minrange = getItemAttribute(item2.uid, 'minrange')
@@ -22,7 +23,7 @@ function onUse(cid, item, frompos, item2, topos)
 	end
 	return true
 end
+```
 
-
-#fishing
+# fishing
 https://www.youtube.com/watch?v=In2gEBgvMZU
